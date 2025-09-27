@@ -1,0 +1,72 @@
+/* General body styling */
+body {
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Headings */
+h1 {
+  color: #2a9d8f;
+}
+
+h2 {
+  color: #264653;
+}
+
+h3 {
+  color: #e76f51;
+}
+
+/* Links */
+a {
+  color: #1d3557;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+thead {
+  background-color: #e0e0e0;
+}
+
+/* Navigation */
+header ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+header ul li a {
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px;
+  background: #ddd;
+}
